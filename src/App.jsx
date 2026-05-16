@@ -249,11 +249,64 @@ export default function App() {
               </p>
 
               <a
-                href="#top"
+                href="#desarrolladores"
                 className="inline-block bg-[#22C55E] hover:bg-[#16a34a] transition px-8 py-4 rounded-2xl font-bold shadow-lg"
               >
-                Solicitar Demo
+                Desarrolladores
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Developers */}
+      <section
+        id="desarrolladores"
+        className="py-24 px-6 md:px-16 bg-[#111827]"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
+              Equipo de Desarrollo
+            </h2>
+
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Profesionales responsables del diseño, desarrollo y optimización
+              de SmartWatt Diagnostics.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl hover:-translate-y-2 transition duration-300 text-center">
+              <div className="w-24 h-24 mx-auto rounded-full bg-[#1E5AA8]/20 flex items-center justify-center text-5xl mb-6">
+                👩‍💻
+              </div>
+
+              <h3 className="text-2xl font-bold mb-6">
+                Vianey Guerrero Reyes
+              </h3>
+
+              <div className="space-y-3 text-gray-300 text-lg">
+                <p>Ingeniero de Requisitos</p>
+                <p>Programador</p>
+                <p>Ingeniero de pruebas</p>
+              </div>
+            </div>
+
+            <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl hover:-translate-y-2 transition duration-300 text-center">
+              <div className="w-24 h-24 mx-auto rounded-full bg-[#22C55E]/20 flex items-center justify-center text-5xl mb-6">
+                👨‍💻
+              </div>
+
+              <h3 className="text-2xl font-bold mb-6">
+                Diego Martinez Morales
+              </h3>
+
+              <div className="space-y-3 text-gray-300 text-lg">
+                <p>Diseñador de software</p>
+                <p>Arquitecto de software</p>
+                <p>Responsable de desarrollo</p>
+              </div>
             </div>
           </div>
         </div>
