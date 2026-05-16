@@ -278,8 +278,21 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl hover:-translate-y-2 transition duration-300 text-center">
-              <div className="w-24 h-24 mx-auto rounded-full bg-[#1E5AA8]/20 flex items-center justify-center text-5xl mb-6">
-                👩‍💻
+              <div className="w-24 h-24 mx-auto rounded-full bg-[#1E5AA8]/20 border border-[#1E5AA8]/40 flex items-center justify-center mb-6 shadow-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-12 h-12 text-[#A7F3D0]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                  />
+                </svg>
               </div>
 
               <h3 className="text-2xl font-bold mb-6">
@@ -294,8 +307,21 @@ export default function App() {
             </div>
 
             <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl hover:-translate-y-2 transition duration-300 text-center">
-              <div className="w-24 h-24 mx-auto rounded-full bg-[#22C55E]/20 flex items-center justify-center text-5xl mb-6">
-                👨‍💻
+              <div className="w-24 h-24 mx-auto rounded-full bg-[#22C55E]/20 border border-[#22C55E]/40 flex items-center justify-center mb-6 shadow-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-12 h-12 text-[#A7F3D0]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                  />
+                </svg>
               </div>
 
               <h3 className="text-2xl font-bold mb-6">
