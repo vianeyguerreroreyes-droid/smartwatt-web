@@ -19,12 +19,21 @@ export default function App() {
           </div>
         </div>
 
-        <a
-          href="#informacion"
-          className="bg-[#22C55E] hover:bg-[#16a34a] transition px-4 md:px-6 py-2 rounded-xl text-sm md:text-base font-semibold shadow-lg"
-        >
-          Conocer más
-        </a>
+        <div className="flex gap-4">
+  <a
+    href="#informacion"
+    className="bg-[#22C55E] hover:bg-[#16a34a] transition px-4 md:px-6 py-2 rounded-xl text-sm md:text-base font-semibold shadow-lg"
+  >
+    Conocer más
+  </a>
+
+  <a
+    href="#descarga"
+    className="border border-white/20 hover:border-[#22C55E] hover:bg-white/5 transition px-4 md:px-6 py-2 rounded-xl text-sm md:text-base font-semibold"
+  >
+    Descargar
+  </a>
+</div>
       </nav>
 
       {/* Hero */}
@@ -337,7 +346,115 @@ export default function App() {
           </div>
         </div>
       </section>
+      {/* Descarga */}
+<section
+  id="descarga"
+  className="py-24 px-6 md:px-16 bg-[#111827]"
+>
+  <div className="max-w-6xl mx-auto">
+    
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
+        Descargar SmartWatt Diagnostics
+      </h2>
 
+      <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+        Descarga el sistema completo en formato ZIP e instala la
+        plataforma de monitoreo energético en tu equipo.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      {/* Panel descarga */}
+      <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl">
+
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-16 h-16 rounded-2xl bg-[#22C55E]/20 flex items-center justify-center text-3xl">
+            📦
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold">
+              SMARTWATT.zip
+            </h3>
+
+            <p className="text-gray-400">
+              Sistema completo listo para ejecutar
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-300 leading-relaxed mb-8">
+          El paquete incluye el sistema SmartWatt Diagnostics,
+          base de datos, backend, frontend y archivo ejecutable
+          preparado para funcionar automáticamente.
+        </p>
+
+        <a
+          href="/SMARTWATT.zip"
+          download
+          className="inline-block bg-[#22C55E] hover:bg-[#16a34a] transition px-8 py-4 rounded-2xl font-bold shadow-lg"
+        >
+          Descargar Sistema
+        </a>
+      </div>
+
+      {/* Instrucciones */}
+      <div className="bg-[#0B1F3B] border border-white/10 rounded-3xl p-10 shadow-2xl">
+
+        <h3 className="text-3xl font-bold mb-8">
+          Instrucciones de instalación
+        </h3>
+
+        <div className="space-y-6 text-gray-300">
+
+          <div className="flex gap-4">
+            <div className="bg-[#22C55E] text-black font-bold rounded-full w-8 h-8 flex items-center justify-center">
+              1
+            </div>
+
+            <p>
+              Descarga el archivo SMARTWATT.zip desde el botón de descarga.
+            </p>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="bg-[#22C55E] text-black font-bold rounded-full w-8 h-8 flex items-center justify-center">
+              2
+            </div>
+
+            <p>
+              Extrae el contenido del archivo ZIP en cualquier carpeta.
+            </p>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="bg-[#22C55E] text-black font-bold rounded-full w-8 h-8 flex items-center justify-center">
+              3
+            </div>
+
+            <p>
+              Abre la carpeta extraída y ejecuta el archivo .exe del sistema.
+            </p>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="bg-[#22C55E] text-black font-bold rounded-full w-8 h-8 flex items-center justify-center">
+              4
+            </div>
+
+            <p>
+              El sistema abrirá automáticamente la plataforma en el navegador.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 px-6 md:px-16 text-center text-gray-400">
         <p>
