@@ -19,17 +19,17 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex gap-4">
+       <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
   <a
     href="#informacion"
-    className="bg-[#22C55E] hover:bg-[#16a34a] transition px-4 md:px-6 py-2 rounded-xl text-sm md:text-base font-semibold shadow-lg"
+    className="bg-[#22C55E] hover:bg-[#16a34a] transition px-3 md:px-6 py-2 rounded-xl text-xs sm:text-sm md:text-base font-semibold shadow-lg text-center"
   >
     Conocer más
   </a>
 
   <a
     href="#descarga"
-    className="border border-white/20 hover:border-[#22C55E] hover:bg-white/5 transition px-4 md:px-6 py-2 rounded-xl text-sm md:text-base font-semibold"
+    className="border border-white/20 hover:border-[#22C55E] hover:bg-white/5 transition px-3 md:px-6 py-2 rounded-xl text-xs sm:text-sm md:text-base font-semibold text-center"
   >
     Descargar
   </a>
